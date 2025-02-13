@@ -13,6 +13,7 @@ public class NotificationController {
     private final SimpMessagingTemplate messagingTemplate;
     private final Random rand = new Random();
 
+    //constructor
     public NotificationController(SimpMessagingTemplate messagingTemplate) {
         this.messagingTemplate = messagingTemplate;
     }
